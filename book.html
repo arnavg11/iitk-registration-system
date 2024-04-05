@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Facility Management</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <h1>Sports Facility Management System</h1>
+    <div>
+        <label for="facility">Select Facility:</label>
+        <select id="facility">
+            <option value="gym">Gym</option>
+            <option value="squash">Squash Court</option>
+            <option value="badminton">Badminton Court</option>
+        </select>
+        <br>
+        <label for="enter start time of 1hr slot(enter only the hour of the time)">Slot Number:</label>
+        <input type="number" style="width: 6rem;" id="slot" value="8" min="8" max="22" >
+        <br>
+        <button id = "book">Book Slot</button>
+        <button id = "check">Check Availability</button>
+    </div>
+    <div id="availability"></div>
+    <button type="button" class="history" id = "profile">View Your Histroy</button>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.history{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
